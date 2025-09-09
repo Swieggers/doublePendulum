@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Double Pendulum</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pendulum.html">Pendulum</a></li>
+            <li><a href="doublePendulum.html">Double Pendulum</a></li>
+        </ul>
+    </nav>
+    <main>
+        <canvas id="pendulumCanvas" width="800" height="600" style="border:1px solid grey;">
+        </canvas>
+        <hr>
+        <button class="doublePendulum" id="start">Start</button>
+        <button class="doublePendulum" id="stop">Stop</button>
+        <button class="doublePendulum" id="print">Print</button>
+        <hr>
+        <p>Each instance of the double pendulum has a unique initial state. This makes it that no two simulations are alike, even if they start with similar conditions.</p>
+        <p>Click the "Start" button to begin the simulation, and "Stop" to pause it. You can also "Print" the current state of the pendulum to have a unique snapshot of its motion!</p>
+
+    </main>
+    <script src="doublePendulum.js"></script>
+</body>
+</html>
